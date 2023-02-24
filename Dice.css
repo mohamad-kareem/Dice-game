@@ -6,9 +6,10 @@ body {
 }
 h1{
     text-align: center;
-    color: rgb(222, 233, 222);
+    color: rgb(15, 164, 15);
 }
 .winner h2{
+    
     text-align: center;
     color: rgb(222, 233, 222);
     letter-spacing: 15px;
@@ -21,7 +22,7 @@ h1{
     text-align: center;
 }
  h2{
-    color: rgb(222, 233, 222);
+    color: rgb(15, 200, 15);
     font-size: 40px;
     font-family: 'Playfair Display', serif;
     letter-spacing: 20px;
@@ -54,7 +55,7 @@ button:hover{
         }
 .winner h2::before{
             background:rgb(37, 44, 37);;
-            animation: type 3s steps(1000) forwards;
+            animation: type 3s steps(1000) infinite;
            
         }
 @keyframes type{
