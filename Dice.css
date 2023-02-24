@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(37, 44, 37);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    color: rgb(222, 233, 222);
+}
+.winner h2{
+    text-align: center;
+    color: rgb(222, 233, 222);
+    letter-spacing: 15px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    margin-bottom: -40px;
+    text-align: center;
+}
+ h2{
+    color: rgb(222, 233, 222);
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 20px;
+}
+button{
+    font-size: 40px;
+    color: white;
+    margin-left: 690px;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(8, 182, 8);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(242, 126, 25);
+    transform: scale(1.2);
+    
+}
+
+.winner h2::before,
+.winner h2::after{
+            content: "";
+            position: absolute;
+            top: 100px;
+            bottom: 650px;
+            right: 200px;
+            left: 500px;
+    
+        }
+.winner h2::before{
+            background:rgb(37, 44, 37);;
+            animation: type 3s steps(1000) forwards;
+           
+        }
+@keyframes type{
+            to{
+                left: 100%;
+            }
+        }    
